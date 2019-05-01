@@ -220,7 +220,7 @@ def adagrad(T=100):
            count = dict(count)
            nzi = []
            nzv = []
-           #Get the non zero indices and values
+           #Get the non zero indices and values......
            for k in count:
                try:
                    nzi.append(indexLookUp[k])
